@@ -1,0 +1,155 @@
+body {
+  padding: 50px;
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+}
+
+a {
+  color: #00B7FF;
+}
+
+.linkImage{
+  
+  border-radius: 50%;
+  margin-left: 30px;
+  display: inline;
+  
+  
+  
+}
+.linkImage:hover {
+  
+  transform:rotateZ(-20deg);
+  transition: .5s;
+  cursor: pointer;
+}
+
+.joinBtn {
+
+  background-color: rgba(0,0,0,0);
+  border-color: #754136;
+  border: 3px solid linear-gradient(to left, #8d4d41, #754136, #5f342b, #2f1a15);
+  border-radius: 25px;
+  height: 90%;
+  
+}
+
+.fc-scroller{
+  border-radius: 25px;
+}
+.card-header{
+  border-radius: 25px 25px 0px 0px !important;
+  
+ 
+}
+.card-body{
+  
+  border-radius: 0px 0px 25px 25px;
+}
+.card{
+  border-radius: 25px;
+  margin: 10px;
+  
+}
+
+
+.fc-right, .fc-prev-button, .fc-right, .fc-next-button, .fc-agendaWeek-button,  .fa-chevron-right, .fc-today-button, .btn, .btn-primary {
+  
+  background-color: #8d4d41;
+  border: 2px solid #8d4d41;
+  border-radius: 25px;
+}
+
+.fc-month-button.btn.btn-primary.active, .fc-agendaWeek-button.btn.btn-primary.active, .fc-agendaDay-button.btn.btn-primary.active, .fc-listMonth-button.btn.btn-primary.active {
+  background-color: #5f342b;;
+  border: 2px solid #8d4d41;
+  
+  
+  
+}
+.fc-month-button.btn.btn-primary:hover, .fc-agendaWeek-button.btn.btn-primary:hover, .fc-agendaDay-button.btn.btn-primary:hover, .fc-listMonth-button.btn.btn-primary:hover{
+  background-color: #754136;
+  border: 2px solid #754136;
+}
+
+.fc-prev-button.btn.btn-primary:focus, .fc-next-button.btn.btn-primary:focus, .fc-month-button.btn.btn-primary.active:focus, .fc-agendaWeek-button.btn.btn-primary.active:focus, .fc-agendaDay-button.btn.btn-primary.active:focus, .fc-listMonth-button.btn.btn-primary.active:focus{
+  box-shadow: 0 0 0 0.0rem
+}
+
+
+.fc-prev-button.btn.btn-primary:hover, .fc-next-button.btn.btn-primary:hover{
+  background-color: #754136;
+  border: 2px solid #754136;
+}
+
+.fc-today{
+  background-color: rgba(141, 77, 65, 0.1);
+}
+
+.fc-list-heading{
+  
+  
+  border-bottom: 2px solid #8d4d41;
+  
+  
+  
+}
+
+.table-active {
+  background-color: rgba(141, 77, 65, 0.1);
+  
+  border: 1px solid #dee2e6;
+  
+}
+
+.fc-day-header{
+  color: #fff;
+  font-weight: normal; 
+}
+
+.fc-day-header.fc-sun{
+  background-color:#8d4d41;
+  border: 2px solid #8d4d41;
+  
+}
+
+.fc-day-header.fc-tue{
+  background-color:#5f342b;
+  border: 2px solid #5f342b;
+  
+}
+
+.fc-day-header.fc-mon{
+  background-color:#754136;
+  border: 2px solid #754136;
+  
+}
+
+.fc-day-header.fc-wed{
+  background-color:#2f1a15;
+  border: 2px solid #2f1a15;
+  
+}
+
+.fc-day-header.fc-thu{
+  background-color:#5f342b;
+  border: 2px solid #5f342b;
+  
+}
+
+.fc-day-header.fc-fri{
+  background-color:#754136;
+  border: 2px solid #754136;
+  
+}
+
+.fc-day-header.fc-sat{
+  background-color:#8d4d41;
+  border: 2px solid #8d4d41;
+  
+}
+
+
+
+
+
+
